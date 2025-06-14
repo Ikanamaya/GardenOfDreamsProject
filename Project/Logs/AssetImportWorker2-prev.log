@@ -1,0 +1,1643 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ru' Physical Memory: 16328 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/D_Documents/Unity project/GardenOfDreamsProject
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+61401
+Successfully changed project path to: D:/D_Documents/Unity project/GardenOfDreamsProject
+D:/D_Documents/Unity project/GardenOfDreamsProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3820] Host "[IP] 192.168.8.29 [Port] 0 [Flags] 2 [Guid] 3403644923 [EditorId] 3403644923 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U2U5QRI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3820] Host "[IP] 192.168.8.29 [Port] 0 [Flags] 2 [Guid] 3403644923 [EditorId] 3403644923 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U2U5QRI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 94.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/D_Documents/Unity project/GardenOfDreamsProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   32.0.15.7652
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006054 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 85.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.585 seconds
+Domain Reload Profiling:
+	ReloadAssembly (585ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (404ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (94ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (244ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002886 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\D_Documents\Unity project\GardenOfDreamsProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\D_Documents\Unity project\GardenOfDreamsProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.854 seconds
+Domain Reload Profiling:
+	ReloadAssembly (854ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (642ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (239ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (275ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (57.4 KB). Loaded Objects now: 3543.
+Memory consumption went from 126.8 MB to 126.7 MB.
+Total: 3.055600 ms (FindLiveObjects: 0.388600 ms CreateObjectMapping: 0.098600 ms MarkObjects: 2.444800 ms  DeleteObjects: 0.122300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 169520.281492 seconds.
+  path: Assets/Layers
+  artifactKey: Guid(bae410ad38c3a7b47bd3dc1edac6ecf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layers using Guid(bae410ad38c3a7b47bd3dc1edac6ecf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4716df47a73237b6955a58dceec61191') in 0.011517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 105.619150 seconds.
+  path: Assets/Village/Buildings/fantasy village mobile pack/assets/textures/NewLayer.terrainlayer
+  artifactKey: Guid(7069f7425fe4c754a982b3e6cd045e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village/Buildings/fantasy village mobile pack/assets/textures/NewLayer.terrainlayer using Guid(7069f7425fe4c754a982b3e6cd045e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9f985cfb2100e2d4e74e752035748f') in 0.090131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.980365 seconds.
+  path: Assets/TerrainLayers
+  artifactKey: Guid(ef209b8de27673a4196d71459a339f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainLayers using Guid(ef209b8de27673a4196d71459a339f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4628c5ece05f9c9972c42a435fa73a85') in 0.001839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 201.095465 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(fa8e5a2676954a3439367be3b19710a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(fa8e5a2676954a3439367be3b19710a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbcdb8e949ea9c46409840970c79d40') in 0.014934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 210.268353 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Mjolnir/Textures/Dry & Dirty/DirtyGrass/DirtyGrass_diffuse C.png
+  artifactKey: Guid(f74d310b23dec4a41984ffecd3988edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Mjolnir/Textures/Dry & Dirty/DirtyGrass/DirtyGrass_diffuse C.png using Guid(f74d310b23dec4a41984ffecd3988edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52cf6984e1b1cce3234a4071dd4fe95') in 0.033087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.590976 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Mjolnir/Textures/Grass/GreenField/GreenField_Base_Color_rainny.png
+  artifactKey: Guid(a53fe58d23b90004eb378184fcce8cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Mjolnir/Textures/Grass/GreenField/GreenField_Base_Color_rainny.png using Guid(a53fe58d23b90004eb378184fcce8cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e891331e13eca654ec795b3024b61d') in 0.019665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.172909 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Mjolnir/Textures/Grass/GreenField/GreenField_mask.png
+  artifactKey: Guid(a077ee93834db954a8017e1896d08714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Mjolnir/Textures/Grass/GreenField/GreenField_mask.png using Guid(a077ee93834db954a8017e1896d08714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d050eed3abaf80aab8a6e0d59e7db2a') in 0.025687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.324841 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Mjolnir/Textures/Road/MainRoad/MainRoad_Base_Color_autumn.png
+  artifactKey: Guid(d92ddb610d5fbc74dbcd8318b7584a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Mjolnir/Textures/Road/MainRoad/MainRoad_Base_Color_autumn.png using Guid(d92ddb610d5fbc74dbcd8318b7584a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b6d54c4d70fae1ff3a9ccbab93ed34') in 0.013444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.795797 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Mjolnir/Textures/Road/OldRoad/OldRoad_diffuseOriginal.png
+  artifactKey: Guid(59134df967d9fac4087ba813dbd8805d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Mjolnir/Textures/Road/OldRoad/OldRoad_diffuseOriginal.png using Guid(59134df967d9fac4087ba813dbd8805d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751a2f13d1b453821fc0dbea3b3b7220') in 0.018277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.332970 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (1).png
+  artifactKey: Guid(f668cdc53730e40429ce27fdd06b5357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (1).png using Guid(f668cdc53730e40429ce27fdd06b5357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7fb9721dc05baab1b7ea086d463043') in 0.012374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (5).png
+  artifactKey: Guid(c0ac89e05580bcd40b8179281fb5c210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (5).png using Guid(c0ac89e05580bcd40b8179281fb5c210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e3a5740f270d437609d4edd9b68fc5') in 0.013420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (13).png
+  artifactKey: Guid(852fedbfe4221d842a20a74b31e9c729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (13).png using Guid(852fedbfe4221d842a20a74b31e9c729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003a595950cd9e27fddc0957bece4b4b') in 0.012149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (4).png
+  artifactKey: Guid(1400935f55aa8b543b651fcc666a55f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (4).png using Guid(1400935f55aa8b543b651fcc666a55f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760fb59acb3f2b443f10b3f427ef37e1') in 0.010269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (10).png
+  artifactKey: Guid(53603a7981ae54f49b19d29cdc9a8892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (10).png using Guid(53603a7981ae54f49b19d29cdc9a8892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165125ea4a7755870b23262e120aa3da') in 0.012748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (11).png
+  artifactKey: Guid(ba37246d2f0fa434ab62287e383ae334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (11).png using Guid(ba37246d2f0fa434ab62287e383ae334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176b09fecf409897863d364849a85d1a') in 0.011566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (14).png
+  artifactKey: Guid(399f4211a1f90b5488472f6423e41c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (14).png using Guid(399f4211a1f90b5488472f6423e41c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c64050904791da09dd3d722a0a8c88') in 0.010634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (9).png
+  artifactKey: Guid(fe1d005a609f0744680d513cf171929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (9).png using Guid(fe1d005a609f0744680d513cf171929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1e0cd5181f1e038f53743411e4a72a') in 0.011534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.897794 seconds.
+  path: Assets/Terrain/NewLayer 1.terrainlayer
+  artifactKey: Guid(4181c538c56ecb042acecd988eaa9bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/NewLayer 1.terrainlayer using Guid(4181c538c56ecb042acecd988eaa9bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae7c0aa3de3eb11b09c8945e14665d3') in 0.039721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.450930 seconds.
+  path: Assets/Terrain/NewLayer 1.terrainlayer
+  artifactKey: Guid(4181c538c56ecb042acecd988eaa9bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/NewLayer 1.terrainlayer using Guid(4181c538c56ecb042acecd988eaa9bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae7ed702a08ce77e3ad5598c13f3708') in 0.028931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Terrain/NewLayer.terrainlayer
+  artifactKey: Guid(f1072ab46c389ac4ca40a1d7857fbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/NewLayer.terrainlayer using Guid(f1072ab46c389ac4ca40a1d7857fbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea76bf1f6881284cb606260f5bbbc7cd') in 0.002976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 216.366862 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(fa8e5a2676954a3439367be3b19710a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(fa8e5a2676954a3439367be3b19710a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035795e905f8ad536a8ef35caeab53f3') in 0.014876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.485921 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (17).png
+  artifactKey: Guid(ecb3fa34267cd384db10e193661b7885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (17).png using Guid(ecb3fa34267cd384db10e193661b7885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42562b0d38a56616a936bcf560825d49') in 0.012804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (26).png
+  artifactKey: Guid(2659b2fa4d4e10a4fab0492640df4fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (26).png using Guid(2659b2fa4d4e10a4fab0492640df4fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a8ef938c1e43d9453398b9694fd5ba') in 0.017495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (37).png
+  artifactKey: Guid(c66633ace55371e41a14db465ca83797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (37).png using Guid(c66633ace55371e41a14db465ca83797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951549c0318c3e91c0c767f258657428') in 0.012495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (48).png
+  artifactKey: Guid(bfa8296fdb0f602478b10937984483c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (48).png using Guid(bfa8296fdb0f602478b10937984483c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666c254f2ea3ccbc1e1baaac283cf75f') in 0.012440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (24).png
+  artifactKey: Guid(8a8b735411f1f5d428e92fd35512dee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (24).png using Guid(8a8b735411f1f5d428e92fd35512dee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d9fa1b5b209e088cc68635138333e4') in 0.010604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (53).png
+  artifactKey: Guid(a69234aaa076815438ded67d037c831f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (53).png using Guid(a69234aaa076815438ded67d037c831f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a4642c592786c9a03115c2102de063') in 0.010903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (61).png
+  artifactKey: Guid(5b2679686b99f064393fc2232a7f2bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (61).png using Guid(5b2679686b99f064393fc2232a7f2bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21456ed4d87aacd4cda50f19180d947b') in 0.010792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (88).png
+  artifactKey: Guid(508d408f2074cbb4e865da87303d0f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (88).png using Guid(508d408f2074cbb4e865da87303d0f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2482cd9233975b07b3a0f3c48e80405b') in 0.011381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (83).png
+  artifactKey: Guid(a1cde8f9deb30e947acf4008e272d611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (83).png using Guid(a1cde8f9deb30e947acf4008e272d611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c179c851e50f5136a275645889dd85') in 0.012508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (31).png
+  artifactKey: Guid(3775233eaa8792e438f091bb902e3a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (31).png using Guid(3775233eaa8792e438f091bb902e3a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44d40666447a4770781fd96d5be4373') in 0.012774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (92).png
+  artifactKey: Guid(249dc61876ac0f54687a39a057878fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (92).png using Guid(249dc61876ac0f54687a39a057878fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c963acf395ac7ca92555ea5b1323d5') in 0.010694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (36).png
+  artifactKey: Guid(84e2c414daec17b4796fb2dae2e091a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (36).png using Guid(84e2c414daec17b4796fb2dae2e091a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c7987f78d3bfcc88428b97fc0e06ce') in 0.013430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (62).png
+  artifactKey: Guid(c6446a579ee816342b311a383087de52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (62).png using Guid(c6446a579ee816342b311a383087de52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fedcfdb9df195d3577f63c523744fca5') in 0.014519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (71).png
+  artifactKey: Guid(df21048606de3964caf207f5769b9ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (71).png using Guid(df21048606de3964caf207f5769b9ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736b50bed7d8448ca7ddd52c43c02643') in 0.013301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (63).png
+  artifactKey: Guid(9e75d094c77e7bf4b8be0b05a2785e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (63).png using Guid(9e75d094c77e7bf4b8be0b05a2785e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131aebadf2b55b6863f20fa555556d7c') in 0.012715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (40).png
+  artifactKey: Guid(93ceb7fdb6458254aa74c348ff4fdcdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (40).png using Guid(93ceb7fdb6458254aa74c348ff4fdcdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c3c9f6eb83e0d7e47c32e46dae7fdd') in 0.012189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (153).png
+  artifactKey: Guid(02e6857b9be639e4289c7a529e617ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (153).png using Guid(02e6857b9be639e4289c7a529e617ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c08c4c4cca1d9c06d22c8ec8c1e840') in 0.011848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (117).png
+  artifactKey: Guid(276c18dccb8be6d41b2d8e1b332f3800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (117).png using Guid(276c18dccb8be6d41b2d8e1b332f3800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293a194769c10b36c5694f0c036ac3cd') in 0.013222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (51).png
+  artifactKey: Guid(efa05755fd956ee42b3b5e5fc51f3ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (51).png using Guid(efa05755fd956ee42b3b5e5fc51f3ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c47c3805c9828b5bc897fb992560d5') in 0.014208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (143).png
+  artifactKey: Guid(004326800a1d11a4b8dac062665994f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (143).png using Guid(004326800a1d11a4b8dac062665994f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0519b33b7e8816eb457c3c200ca1a132') in 0.013008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (109).png
+  artifactKey: Guid(0d06e00ed3f678a4a9a55a39b2155eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (109).png using Guid(0d06e00ed3f678a4a9a55a39b2155eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6df0ee78cba23f21754a9b85038cac') in 0.012453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (23).png
+  artifactKey: Guid(d417f19b5da8cdc4d9b016b379bae3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (23).png using Guid(d417f19b5da8cdc4d9b016b379bae3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7b89ef7836826d035c7376c5013a5e') in 0.014179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (97).png
+  artifactKey: Guid(cefa4a2cce714f34fb7644bdc9850cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (97).png using Guid(cefa4a2cce714f34fb7644bdc9850cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e001c92f58633795fbef887524d03be8') in 0.011954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (68).png
+  artifactKey: Guid(d27568f7bdfbb974ca9f15d48652133c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (68).png using Guid(d27568f7bdfbb974ca9f15d48652133c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd7f70f8ecb39b9efd3aa548ab72c96') in 0.011971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (161).png
+  artifactKey: Guid(797e2c5ca94c7c24eb7e3acedfa905b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (161).png using Guid(797e2c5ca94c7c24eb7e3acedfa905b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8032797205f71596df14d950c06b5d') in 0.012036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (72).png
+  artifactKey: Guid(4caeecf40a9e8d347a422529aec78876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (72).png using Guid(4caeecf40a9e8d347a422529aec78876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c60ac5e09b3478207d483abf1605ef') in 0.013373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (155).png
+  artifactKey: Guid(a968ca61620f0e14786706546c448503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (155).png using Guid(a968ca61620f0e14786706546c448503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6717b0a93a72a4f40b0dfa1395b1d4e4') in 0.012689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (152).png
+  artifactKey: Guid(9626e12c75640d44bb6aab9fa1965ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (152).png using Guid(9626e12c75640d44bb6aab9fa1965ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3b5d7ffcef502f08e9a9d82bd4ca50') in 0.014519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (139).png
+  artifactKey: Guid(cf2c90a92e60fb54290c3ddd376f364d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (139).png using Guid(cf2c90a92e60fb54290c3ddd376f364d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d76afbfe123e85bda145ffb70fb69f') in 0.012853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (66).png
+  artifactKey: Guid(771177647eca5234ab0189ad28fed532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (66).png using Guid(771177647eca5234ab0189ad28fed532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d582c9a96d9a7558f48baea2bbe9829') in 0.012956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (167).png
+  artifactKey: Guid(41a8f11ab25f95648bdfd1778f73817f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (167).png using Guid(41a8f11ab25f95648bdfd1778f73817f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd825947a57f0b92cd0649bdcb1eaccb') in 0.011850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (101).png
+  artifactKey: Guid(7fe4010944e5a6946ac6d73ade6eb632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (101).png using Guid(7fe4010944e5a6946ac6d73ade6eb632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337eb636ad70bec6cc676c64dccc2ebb') in 0.011039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (143).png
+  artifactKey: Guid(8debdd08174c1174caaa14cf0568eb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (143).png using Guid(8debdd08174c1174caaa14cf0568eb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd479d4fb7144e5dce637a32cb2a6193') in 0.011501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (68).png
+  artifactKey: Guid(67b8810bfa2e8c248b815801dd40ceb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (68).png using Guid(67b8810bfa2e8c248b815801dd40ceb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f877c30f67f89b7ea4a07eaf38bcb57') in 0.013753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (52).png
+  artifactKey: Guid(7c78b1f737a396144a91decd587d21dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (52).png using Guid(7c78b1f737a396144a91decd587d21dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31898d92621de70d50e8cbc2498c3a56') in 0.011071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (147).png
+  artifactKey: Guid(003226885fd24b94db6a8ea2639b9374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (147).png using Guid(003226885fd24b94db6a8ea2639b9374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514ab25d43cf4ee79972790d78a0ec92') in 0.011229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (136).png
+  artifactKey: Guid(49fbae68662a511458c982c3d136995d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (136).png using Guid(49fbae68662a511458c982c3d136995d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60e7635e087723fba098b8c5908ae7f') in 0.011965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (24).png
+  artifactKey: Guid(4e2e30856db0791449c17dcec594ee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (24).png using Guid(4e2e30856db0791449c17dcec594ee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6096041cf9dc4a0624bc7dafdc469cfc') in 0.012624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (87).png
+  artifactKey: Guid(3b74885a1aaad014db3df1d4d9c7fc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (87).png using Guid(3b74885a1aaad014db3df1d4d9c7fc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5418d354e617a1a71adbf40af159f22a') in 0.015373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (74).png
+  artifactKey: Guid(ca7ff0b6b5a77fb4eb06539a86c0d16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (74).png using Guid(ca7ff0b6b5a77fb4eb06539a86c0d16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99579a4a736ef19452b852f44d5612aa') in 0.011903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (14).png
+  artifactKey: Guid(88314e434c94b114c9f5b3877573a63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (14).png using Guid(88314e434c94b114c9f5b3877573a63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82d98ab37bc70032b1c48c142737a47') in 0.013023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (75).png
+  artifactKey: Guid(d27dd428d2e62d24b811bd093d9d6b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (75).png using Guid(d27dd428d2e62d24b811bd093d9d6b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99839eb4f7453b0ef485eea0987d8043') in 0.012244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (159).png
+  artifactKey: Guid(80b71cfecfc920d47b852174c67cce75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (159).png using Guid(80b71cfecfc920d47b852174c67cce75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bc96daa9def4b0cae723a6e3ab63ae') in 0.012640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (35).png
+  artifactKey: Guid(53d3ea8a7cd26784d9cb68d3ba2eb288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (35).png using Guid(53d3ea8a7cd26784d9cb68d3ba2eb288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c71bf564707bf23c19de46dcd8b49bb') in 0.013078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (141).png
+  artifactKey: Guid(c3be3160bbf4a714fbd52234ac1f91a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (141).png using Guid(c3be3160bbf4a714fbd52234ac1f91a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d9ec739d93c43cb60ff72d0f58e9b3') in 0.012429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (95).png
+  artifactKey: Guid(6caa46dc1c9e42942bd1c789fe14e88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (95).png using Guid(6caa46dc1c9e42942bd1c789fe14e88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde01d443db1532e3856b8a3c1a4fcdf') in 0.011628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (81).png
+  artifactKey: Guid(8e927b31d3596ab4ebe7faecaa07b9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (81).png using Guid(8e927b31d3596ab4ebe7faecaa07b9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af94296f123cbb445778e2e0731bf3e') in 0.011903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (33).png
+  artifactKey: Guid(e8e4fda8cd7493d41b2b024cc9783c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (33).png using Guid(e8e4fda8cd7493d41b2b024cc9783c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5ffaf219a57b3c49bad241076c45f8') in 0.011739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (118).png
+  artifactKey: Guid(7b28e5780818c6140aa61331dbe0e333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (118).png using Guid(7b28e5780818c6140aa61331dbe0e333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10eb5bf9f5c2ed463d4960158138ace6') in 0.012124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (149).png
+  artifactKey: Guid(3c16f2abf9b68c24ca999d083aec2be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (149).png using Guid(3c16f2abf9b68c24ca999d083aec2be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3273ef986e5b7c26c3bcc58d1b0958') in 0.011550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (22).png
+  artifactKey: Guid(65fbba5fbb8c1d5408285cf03384c5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (22).png using Guid(65fbba5fbb8c1d5408285cf03384c5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8ccbd380226ebbdaaf2175b6daf917') in 0.013295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (94).png
+  artifactKey: Guid(98071be651510ff4fbe462867b4f4c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (94).png using Guid(98071be651510ff4fbe462867b4f4c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9d50d46c44d05901f4594ac2ebe6a0') in 0.012153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (8).png
+  artifactKey: Guid(d7b64b0539ee5224db14204c5dbb5ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (8).png using Guid(d7b64b0539ee5224db14204c5dbb5ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d30fa7d1e8eaab67c2f5b767e984cf') in 0.014450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (42).png
+  artifactKey: Guid(1a7d2d934ee5ba149a5705e2b13ec866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (42).png using Guid(1a7d2d934ee5ba149a5705e2b13ec866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fd8bf8187f1180485b9de6f168e2dc') in 0.012566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (78).png
+  artifactKey: Guid(ddfeb39cdc823b7498c28a9c8adb8460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (78).png using Guid(ddfeb39cdc823b7498c28a9c8adb8460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f931961bb842146b1d59322d37583d3c') in 0.012059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (21).png
+  artifactKey: Guid(bd30ad04353f5d247bf0c978542f3305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (21).png using Guid(bd30ad04353f5d247bf0c978542f3305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd7b1d8165fed332e22e731495120d4') in 0.012840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (85).png
+  artifactKey: Guid(84bab08d768e7ff4ea5a5c51d25daf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (85).png using Guid(84bab08d768e7ff4ea5a5c51d25daf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62be11d45663fa9f06fdb3a5fe20fb7c') in 0.014081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (37).png
+  artifactKey: Guid(b749564378d545443b4250c28bca3c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (37).png using Guid(b749564378d545443b4250c28bca3c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db987ae63f03ffda477f5abf6b5b806c') in 0.012475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (32).png
+  artifactKey: Guid(b30d71c7b77fc18438c866a13d56b6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (32).png using Guid(b30d71c7b77fc18438c866a13d56b6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8109de9f29241cab1408389d2966081f') in 0.013836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (89).png
+  artifactKey: Guid(0151553c2cc8a6c4bb401080a2aa3c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (89).png using Guid(0151553c2cc8a6c4bb401080a2aa3c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16f6529fb2bc167a09ea0599cdd2a36') in 0.011005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (46).png
+  artifactKey: Guid(c7d9fe2f16f384b46b1e05bfb7f7aec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (46).png using Guid(c7d9fe2f16f384b46b1e05bfb7f7aec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c192a78cfa18f629e9ad33fbdccd27ee') in 0.011722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (39).png
+  artifactKey: Guid(251b7bf8f0608fd4882abe04d04d450b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (39).png using Guid(251b7bf8f0608fd4882abe04d04d450b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b1358bfa1b680aeaf31048990be0c7') in 0.012226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (42).png
+  artifactKey: Guid(c06cba8bdf5f68c49beef42240f3d41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (42).png using Guid(c06cba8bdf5f68c49beef42240f3d41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4a1dd0223a31804847c6b78160bd47') in 0.012877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (33).png
+  artifactKey: Guid(a0347e8a898393c4ebbcabce0ccb367d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (33).png using Guid(a0347e8a898393c4ebbcabce0ccb367d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256f28813a8943fe73bf824a28d6705b') in 0.012060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (63).png
+  artifactKey: Guid(c8bde97de61a81f4f9931c71d7a5a5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (63).png using Guid(c8bde97de61a81f4f9931c71d7a5a5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866c06ce5262c93cd6f7dc2f05c67423') in 0.012906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (106).png
+  artifactKey: Guid(e2bd01b838179c0469e8b6b42b51aa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (106).png using Guid(e2bd01b838179c0469e8b6b42b51aa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76008c7d5af0e0c84e2a638a5932b598') in 0.012344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (138).png
+  artifactKey: Guid(6f1c7a13d7a04f94f8cb8c4d0b143ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (138).png using Guid(6f1c7a13d7a04f94f8cb8c4d0b143ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485d7a89a6dcc744c849a094085199d3') in 0.012777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (26).png
+  artifactKey: Guid(68d301a1edaae2841bf09b95678eefef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (26).png using Guid(68d301a1edaae2841bf09b95678eefef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779ca601081277f8a5a12b8e75aab2c1') in 0.014704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (72).png
+  artifactKey: Guid(2c44b18443203fd4e969e8cf5a4a45d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (72).png using Guid(2c44b18443203fd4e969e8cf5a4a45d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f8113df4d5b2ed5e2b87bfcd390cd4') in 0.015500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (19).png
+  artifactKey: Guid(9cb26582d1d36a24597ed11bc59f5a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (19).png using Guid(9cb26582d1d36a24597ed11bc59f5a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2849bbf7208fbabf33416b2682612fe3') in 0.012478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (82).png
+  artifactKey: Guid(82ebd55999388ad41a9f20222914c74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (82).png using Guid(82ebd55999388ad41a9f20222914c74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499c899c2d7e4a8208290c09ace4ee4c') in 0.013492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (57).png
+  artifactKey: Guid(d461c6f57578fb842a93265a98020ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (57).png using Guid(d461c6f57578fb842a93265a98020ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c77cc6c0a6a0c2edc17cb38b49f4482') in 0.011996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (18).png
+  artifactKey: Guid(75bac29aeab197042afc4aae6c0b7a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (18).png using Guid(75bac29aeab197042afc4aae6c0b7a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3ef019c2feed9ef18bcecbb6459ca1') in 0.012714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (20).png
+  artifactKey: Guid(59d671087dd3c2440bbffa915231dd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (20).png using Guid(59d671087dd3c2440bbffa915231dd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ecad483d12028a553f2494f8c842e5d') in 0.013669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (78).png
+  artifactKey: Guid(d8a711bba2910e8488aa28d8862134a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (78).png using Guid(d8a711bba2910e8488aa28d8862134a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fc2ad72e2881b0706cd1a8b25a802f') in 0.013090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (145).png
+  artifactKey: Guid(ff9dbe7ed3d84144b84d265f1486d44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (145).png using Guid(ff9dbe7ed3d84144b84d265f1486d44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8772a175c6d41f1664b6ca2d329573') in 0.011441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (55).png
+  artifactKey: Guid(9dd574aca7a9b984297fc4382367070d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (55).png using Guid(9dd574aca7a9b984297fc4382367070d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c3eacbd75a6cd6c33dcd3315d952f1') in 0.012778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (99).png
+  artifactKey: Guid(c5f8a3ea453b7d64a98c30c1f0ae8e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (99).png using Guid(c5f8a3ea453b7d64a98c30c1f0ae8e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f829a494198d74b78e1041ae876681c2') in 0.012394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (150).png
+  artifactKey: Guid(9bb944afc3d146842a22bdb0118c5b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (150).png using Guid(9bb944afc3d146842a22bdb0118c5b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1a634aa3b46b9885b2746e4e4ddff6') in 0.011642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (32).png
+  artifactKey: Guid(847ec548e15106e4ea1f28fd9d50a652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (32).png using Guid(847ec548e15106e4ea1f28fd9d50a652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e11ac018e0129de25d8a67c347b5c1') in 0.012964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (38).png
+  artifactKey: Guid(2b0d983f6f2c0954aaa1cc19d97573c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (38).png using Guid(2b0d983f6f2c0954aaa1cc19d97573c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd076e83f094cd6b1259f35aa94d15a') in 0.012250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (37).png
+  artifactKey: Guid(e78b8a109b4386043a683e22f620a54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (37).png using Guid(e78b8a109b4386043a683e22f620a54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53fdfae7cdd284e3b60fc7118188c2d') in 0.014379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (113).png
+  artifactKey: Guid(6aa03cb6dcc69cf4283b35f529398e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (113).png using Guid(6aa03cb6dcc69cf4283b35f529398e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea42480df60d5a0ccc64fc8cd64295c') in 0.012925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (70).png
+  artifactKey: Guid(281ed13e089a9894b9f790e777ba5938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (70).png using Guid(281ed13e089a9894b9f790e777ba5938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20549871a739461596200396ed224e3') in 0.012646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (59).png
+  artifactKey: Guid(8f4f3311e0acd1e4888c6415db529637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (59).png using Guid(8f4f3311e0acd1e4888c6415db529637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f6057b0c0ce38a44b01010546b62bd') in 0.013871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (57).png
+  artifactKey: Guid(786b0901ef850884a93ca9068fadd45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (57).png using Guid(786b0901ef850884a93ca9068fadd45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c9af45afbe9427563953c0d3bab895') in 0.011571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (144).png
+  artifactKey: Guid(aba7db02d1d852743ac320d4adbc2f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (144).png using Guid(aba7db02d1d852743ac320d4adbc2f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a79b998b51d520daf3030297f4bc1b3') in 0.012262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (161).png
+  artifactKey: Guid(6e64d6a65ac932b41bea437bae364c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (161).png using Guid(6e64d6a65ac932b41bea437bae364c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8c5606f26910ca0dc6de161b92d25c') in 0.011864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (158).png
+  artifactKey: Guid(b3011597656a88749a2319bc884429b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (158).png using Guid(b3011597656a88749a2319bc884429b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff4ff198d9a01c709915c1e5b43320d') in 0.011389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (54).png
+  artifactKey: Guid(228793ed6f494a243a58a632ce6a2a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (54).png using Guid(228793ed6f494a243a58a632ce6a2a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a221944e1d97655a0741559bdf17944') in 0.012660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (91).png
+  artifactKey: Guid(002161558479096488ff718f45f72163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (91).png using Guid(002161558479096488ff718f45f72163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88155450cc2dd0971cb581fc5c4425dc') in 0.016310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (44).png
+  artifactKey: Guid(eacacef40ca4cb546af2b460385deb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (44).png using Guid(eacacef40ca4cb546af2b460385deb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd5060dd8b979e05560565b7ec4c08d') in 0.012700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (41).png
+  artifactKey: Guid(85fb1d6f1006cf44e8108ad62587463f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (41).png using Guid(85fb1d6f1006cf44e8108ad62587463f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd910cfa7906f5905feae196ca8e519ba') in 0.012325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (96).png
+  artifactKey: Guid(a15fae123bffcba4faaf9b4ca0bed290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (96).png using Guid(a15fae123bffcba4faaf9b4ca0bed290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d5c30bc83d76db902df81dd60c631c') in 0.011950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (118).png
+  artifactKey: Guid(b7c19d32e1609f947a839f43537abf33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (118).png using Guid(b7c19d32e1609f947a839f43537abf33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95b2e7f53c75228e072b7cce5454c9f') in 0.013761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (123).png
+  artifactKey: Guid(ce99e3cff41d43c44851e4e9bf6250e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (123).png using Guid(ce99e3cff41d43c44851e4e9bf6250e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eeb5e49af0702641bf2f2896173a6e8') in 0.012811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (79).png
+  artifactKey: Guid(38b42f10f2206c949a6c2ab9726b85d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (79).png using Guid(38b42f10f2206c949a6c2ab9726b85d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13f4ffe33cfb8a95d4cda18b094cf03') in 0.012434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (97).png
+  artifactKey: Guid(3137afe62f4c0104e86bbf713d9b3071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (97).png using Guid(3137afe62f4c0104e86bbf713d9b3071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589708d5452e6ba8a14be57c74320eef') in 0.011329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (92).png
+  artifactKey: Guid(ebf51d846a26ffa4c976e4a104263269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (92).png using Guid(ebf51d846a26ffa4c976e4a104263269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edead811084e5d5b919081e0abb0a9e') in 0.012916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (93).png
+  artifactKey: Guid(9c691daa6fcf7a34abc3830ba7c832b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (93).png using Guid(9c691daa6fcf7a34abc3830ba7c832b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37718471edc1636552df7e93e050a20b') in 0.012847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (85).png
+  artifactKey: Guid(d84e1d909726fda41b60a464bdbcab54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (85).png using Guid(d84e1d909726fda41b60a464bdbcab54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba673429ae9228aec8f14ed610905fb') in 0.011807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (84).png
+  artifactKey: Guid(4c4fc4a62b2f7c144a317a2dedbe66d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (84).png using Guid(4c4fc4a62b2f7c144a317a2dedbe66d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c85bf10d4e8ae9a42ddf484f038952') in 0.014711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (48).png
+  artifactKey: Guid(f6c63eb33362ad34fa2e76d8337cf188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (48).png using Guid(f6c63eb33362ad34fa2e76d8337cf188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26742fb9507a5e95a69de6018401c240') in 0.012129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (65).png
+  artifactKey: Guid(06ca23be6a1ea3a4cafb8d6966a71c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (65).png using Guid(06ca23be6a1ea3a4cafb8d6966a71c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020a3d0a6847d4d0085d08f503010ccd') in 0.012358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (30).png
+  artifactKey: Guid(220b7728edf808048ac1b79d88b04668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (30).png using Guid(220b7728edf808048ac1b79d88b04668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27e466bff7928c1f0d78998b7773cc3') in 0.013664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (72).png
+  artifactKey: Guid(79c0022c7b5a29b4382ea546884bd883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (72).png using Guid(79c0022c7b5a29b4382ea546884bd883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c8e9e23da0682bb1ce0cc330ce872f') in 0.012189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (66).png
+  artifactKey: Guid(611106b8bddd95f49b09a0de2b96f6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (66).png using Guid(611106b8bddd95f49b09a0de2b96f6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070fd1e529d364826debeeaba945b2a3') in 0.012302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (74).png
+  artifactKey: Guid(d141bedf76183234d9829a53add5fe32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (74).png using Guid(d141bedf76183234d9829a53add5fe32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d85dd41ddcbbf2d64efdceff92d05a4') in 0.012925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (67).png
+  artifactKey: Guid(07c91815c4fcf874c879692eaf0b06ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (67).png using Guid(07c91815c4fcf874c879692eaf0b06ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c680f970d03d342507978f575f929577') in 0.012144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (59).png
+  artifactKey: Guid(7cfc988e23bb3174dac219391ddc326f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (59).png using Guid(7cfc988e23bb3174dac219391ddc326f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0ae2ca6b4aadd0bab02a14e331836c') in 0.012102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (146).png
+  artifactKey: Guid(b81a22e2bbf0ed348ba975b115ba78b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (146).png using Guid(b81a22e2bbf0ed348ba975b115ba78b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d928596c4e9afefc458a517a6ecdda2') in 0.012014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (104).png
+  artifactKey: Guid(ff17242835179ab4492122d67edd5973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (104).png using Guid(ff17242835179ab4492122d67edd5973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01a74dfca041db70284efc54c5bdbc5') in 0.011431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (20).png
+  artifactKey: Guid(1a38c6e9017f551409e4d3bbb2e2da5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (20).png using Guid(1a38c6e9017f551409e4d3bbb2e2da5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe71e98b2878723429b19fbbaa158a94') in 0.012378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (55).png
+  artifactKey: Guid(b94f5c05b30d9fc428bf588c9b80b29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (55).png using Guid(b94f5c05b30d9fc428bf588c9b80b29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af2eb9900bd2f3b1918041909184cbd') in 0.011219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (125).png
+  artifactKey: Guid(9d52bc7b89e568942a384ee295b19539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (125).png using Guid(9d52bc7b89e568942a384ee295b19539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad4bf2ec034fd5aeac7ed7fa1e91d7b') in 0.012788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (129).png
+  artifactKey: Guid(b97aff8a4119da848beffdd2694e7ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (129).png using Guid(b97aff8a4119da848beffdd2694e7ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939401a5da92f11488ee812cfd85bebe') in 0.013432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (132).png
+  artifactKey: Guid(432f39b4da0c52047a543f5a270bda3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (132).png using Guid(432f39b4da0c52047a543f5a270bda3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532bc42669700e3d6d629c01e8def90b') in 0.012595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (116).png
+  artifactKey: Guid(3e6356af8b5738e46b911b207055a088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (116).png using Guid(3e6356af8b5738e46b911b207055a088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b38f4d07cdffef449c19e4480be333c') in 0.011630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (66).png
+  artifactKey: Guid(2de1e36d91784ff4db2f4200851a4ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (66).png using Guid(2de1e36d91784ff4db2f4200851a4ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3505cd2412642dd2d564e1b1ad8af37') in 0.012095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (39).png
+  artifactKey: Guid(86b28bb7993296b45b0f3e745dd5ee40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (39).png using Guid(86b28bb7993296b45b0f3e745dd5ee40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b39cfae279ea71ed0fd0ec7c3808172') in 0.013852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (54).png
+  artifactKey: Guid(801bb8f1fb9ac7946bf51988d310070e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (54).png using Guid(801bb8f1fb9ac7946bf51988d310070e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba28d0a19c71721c8e13a738dc303f39') in 0.013144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (17).png
+  artifactKey: Guid(6873e43618dc6704ca6a194c3e3236df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (17).png using Guid(6873e43618dc6704ca6a194c3e3236df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d92311e70cca2afd80dc3382d483b13') in 0.012758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (77).png
+  artifactKey: Guid(e4126397735b0fd4993b01fe3ed17b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (77).png using Guid(e4126397735b0fd4993b01fe3ed17b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc2e2426c76995cad0fd3b75254fb3c') in 0.013103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (75).png
+  artifactKey: Guid(3e193d9873f59ca46aaac4a0b485f294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (75).png using Guid(3e193d9873f59ca46aaac4a0b485f294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a4fa324fbf862b1a356a1f1ad56118') in 0.015175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (109).png
+  artifactKey: Guid(d7c44b8ae419837488f5aecac5d7dd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (109).png using Guid(d7c44b8ae419837488f5aecac5d7dd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0a2ab80b4e993a622b9dba9fb98676') in 0.015477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (38).png
+  artifactKey: Guid(a4b3b3ca4acf6874a943592cc2c9a01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (38).png using Guid(a4b3b3ca4acf6874a943592cc2c9a01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e075808e1afef637eca0e1471fb382a0') in 0.015649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (121).png
+  artifactKey: Guid(5e57f696dc876914ba8b3fa86e6af4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (121).png using Guid(5e57f696dc876914ba8b3fa86e6af4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d142f9cc9e16057c8fc6411b11d832') in 0.016225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (25).png
+  artifactKey: Guid(6c5ff7f988b629545b2d9b10acd6128f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (25).png using Guid(6c5ff7f988b629545b2d9b10acd6128f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040c5f2fd11a96aeaa4a27181a175e53') in 0.017051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (52).png
+  artifactKey: Guid(21e34b9a8f4d97b40830bda4951cea34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (52).png using Guid(21e34b9a8f4d97b40830bda4951cea34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04d45637209ebb70ec9b7503d3fc980') in 0.016097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (140).png
+  artifactKey: Guid(be21f0493394ad0419cbc7c18ecb7729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (140).png using Guid(be21f0493394ad0419cbc7c18ecb7729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4953cbd8cb8bdb2c538f2bc621e80c0') in 0.015084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (88).png
+  artifactKey: Guid(8547d88597f98b84fb025bd8376e6b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (88).png using Guid(8547d88597f98b84fb025bd8376e6b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9efe6b529babe40e7176ce70df31c521') in 0.018545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (137).png
+  artifactKey: Guid(65a6e482eff58224682e34f84e7c6f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (137).png using Guid(65a6e482eff58224682e34f84e7c6f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9c343dcedeeecac7bd1b5fd6c29768') in 0.016840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (146).png
+  artifactKey: Guid(2a0845864ab11704491fdc517599a317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (146).png using Guid(2a0845864ab11704491fdc517599a317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8000b7bdd001cfb6dbbf2b464beb0226') in 0.018729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (151).png
+  artifactKey: Guid(129d44c66aebfba42a1b1bedd8461d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (151).png using Guid(129d44c66aebfba42a1b1bedd8461d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e9f732603387d8ce97023e90e35e59') in 0.016224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (156).png
+  artifactKey: Guid(796f0b9983304454d98336472db53b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (156).png using Guid(796f0b9983304454d98336472db53b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9692f92e4efe4bb13b133675eefe5202') in 0.016786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (141).png
+  artifactKey: Guid(da815e1641cd76d49929d5c4310fb5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (141).png using Guid(da815e1641cd76d49929d5c4310fb5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f78f4ed617bdb290556f3273265377d') in 0.013049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (154).png
+  artifactKey: Guid(691bb8fadd319d548a2b3852640018ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (154).png using Guid(691bb8fadd319d548a2b3852640018ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19d4802636252d4c7c804152005a6ff') in 0.013014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (165).png
+  artifactKey: Guid(4eee8163587daa44d9b362a50efef9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (165).png using Guid(4eee8163587daa44d9b362a50efef9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cd792d4763a8361b8b18beb1674fc8') in 0.011656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (68).png
+  artifactKey: Guid(dbe8efd6ad858f84996f719aec1dcba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (68).png using Guid(dbe8efd6ad858f84996f719aec1dcba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988c8821a54ab13d1ed53ef45fd1401a') in 0.020020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (45).png
+  artifactKey: Guid(659a5c0a6b0550b4d847ba07df7078f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (45).png using Guid(659a5c0a6b0550b4d847ba07df7078f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ba16b67bb71791a248275fde3e7dfa') in 0.014542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (87).png
+  artifactKey: Guid(f457140eac4194244a2e4cf2bd2a6de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (87).png using Guid(f457140eac4194244a2e4cf2bd2a6de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0fb4cd6228e719d73022ce2c02f274') in 0.013123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (156).png
+  artifactKey: Guid(5d371adb7c3dc0c4fb64cac3694c6b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (156).png using Guid(5d371adb7c3dc0c4fb64cac3694c6b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68cfc671ac9e1d41def0343607011b87') in 0.013282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (49).png
+  artifactKey: Guid(97d4e0aeb4efab042b04849e0673cd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (49).png using Guid(97d4e0aeb4efab042b04849e0673cd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4a3dc1d5c142bc4ae6837134fb8b8f') in 0.011132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (61).png
+  artifactKey: Guid(7022b5cb60978c240b8c73ce11d8c7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (61).png using Guid(7022b5cb60978c240b8c73ce11d8c7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9907aac4ba769da1052e53425a7ccb0d') in 0.013379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (28).png
+  artifactKey: Guid(0ee231ae5c8e25c4f9ac955577abaf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (28).png using Guid(0ee231ae5c8e25c4f9ac955577abaf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd24fdbb8a806334da30410968cbad2') in 0.013473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (127).png
+  artifactKey: Guid(dac54eacc5b93d942b5346f8d8bacb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (127).png using Guid(dac54eacc5b93d942b5346f8d8bacb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3847b6653548a11b540c947e9a41483f') in 0.016439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (48).png
+  artifactKey: Guid(4d7e1a734b0185b409adf9f357244b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (48).png using Guid(4d7e1a734b0185b409adf9f357244b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d66c7c78a3a61e3d1e7773b4321e15') in 0.011753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (43).png
+  artifactKey: Guid(85ec8220ac6015e4c9f97b8ba14bbe50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (43).png using Guid(85ec8220ac6015e4c9f97b8ba14bbe50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f606819b8c360c359ab8bfe04d56a0') in 0.014241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (160).png
+  artifactKey: Guid(7248fc325a1c3954ca385162d9fa6b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (160).png using Guid(7248fc325a1c3954ca385162d9fa6b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914318f43b7ea000300ea17bd1126565') in 0.019013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (158).png
+  artifactKey: Guid(2012ba4de43f36947aabc29ebdda6857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (158).png using Guid(2012ba4de43f36947aabc29ebdda6857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146db6f0b213eeedec3faa067cd5cda3') in 0.014170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (159).png
+  artifactKey: Guid(6aaf3292bd232cb4384053dd97fb2e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (159).png using Guid(6aaf3292bd232cb4384053dd97fb2e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43aa988bb362dcc58a25e9cab796177') in 0.017952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (90).png
+  artifactKey: Guid(9fdc5b2d6b7545548935dbced6703bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (90).png using Guid(9fdc5b2d6b7545548935dbced6703bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d2da8c6d82d4225cff52c9e9bb1ac1') in 0.016712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (144).png
+  artifactKey: Guid(196444c9cd58c45458340cdd6b75b835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (144).png using Guid(196444c9cd58c45458340cdd6b75b835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd545d6a2cd537f1bbac498a9a782e1fb') in 0.015801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (142).png
+  artifactKey: Guid(c3ba73d7d49474947ac4fb1f7e959540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (142).png using Guid(c3ba73d7d49474947ac4fb1f7e959540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec060ae00468375ea45b4294fd099438') in 0.012255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (43).png
+  artifactKey: Guid(b8843fed44aed88408cefb8fc9a3a6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (43).png using Guid(b8843fed44aed88408cefb8fc9a3a6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37318c7b4406abb85371ffe210d34e07') in 0.013446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (102).png
+  artifactKey: Guid(a3dffbf40c1d9bb4391cbee574b71c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (102).png using Guid(a3dffbf40c1d9bb4391cbee574b71c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9a1dd5e4819b66ba43518e4b816ef5') in 0.010813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (115).png
+  artifactKey: Guid(b0b8f91bbfbf4364e9381aef3647458d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (115).png using Guid(b0b8f91bbfbf4364e9381aef3647458d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6479fd7a8b2756b138c35a319eeee04') in 0.013354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (111).png
+  artifactKey: Guid(0302d879a36055e4e82a010e7e51ac1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (111).png using Guid(0302d879a36055e4e82a010e7e51ac1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab14e9c6b0e29ef8e900c0102b161d8b') in 0.012934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (44).png
+  artifactKey: Guid(af13b48e22b767d41b701abc92da71ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (44).png using Guid(af13b48e22b767d41b701abc92da71ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4462bde6275ed38bc3d2f4dacf4c0a60') in 0.012072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (25).png
+  artifactKey: Guid(a0e1874ca35d4a941bc728c6a49285fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (25).png using Guid(a0e1874ca35d4a941bc728c6a49285fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11aa10268f08a08c8172fe29882a02a8') in 0.012855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (157).png
+  artifactKey: Guid(52e1f0c46cab52f4b8df26ca2ca43b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (157).png using Guid(52e1f0c46cab52f4b8df26ca2ca43b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad39b99a8922cbd6829e2eba8372770e') in 0.011459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (98).png
+  artifactKey: Guid(89770e750e4fab64c91ba64896ce85dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (98).png using Guid(89770e750e4fab64c91ba64896ce85dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eceba07dbcdd4a238ec6d9b4c11de3c0') in 0.012875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (107).png
+  artifactKey: Guid(232b6039e95ef694b88b914b16f646db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (107).png using Guid(232b6039e95ef694b88b914b16f646db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04d6ff96980b15326310c7a2c61110c') in 0.016427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (151).png
+  artifactKey: Guid(a231a783e0c0ee04f81de33bba4db594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (151).png using Guid(a231a783e0c0ee04f81de33bba4db594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '709b1b7247505e83a7c6e4f8ba5f9195') in 0.012503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (70).png
+  artifactKey: Guid(2ca8c35cca258ae429a1fb162adf06c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (70).png using Guid(2ca8c35cca258ae429a1fb162adf06c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50cb92c4be3b413b257ca1d3e2b6c5b') in 0.012099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (27).png
+  artifactKey: Guid(73c56ab8e173afb429704d5886a565cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (27).png using Guid(73c56ab8e173afb429704d5886a565cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e635b4c9ed8158783b31694454551f7') in 0.013593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (29).png
+  artifactKey: Guid(974aed70a7272ea4fb9177eb62f96b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (29).png using Guid(974aed70a7272ea4fb9177eb62f96b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628eaeb22d28ae8be7a005bbbbd39729') in 0.011170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (45).png
+  artifactKey: Guid(12c2f394cd453ea46a4a7199cccffdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (45).png using Guid(12c2f394cd453ea46a4a7199cccffdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aaa059fa985d478e09e23249bfa4b12') in 0.011056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (12).png
+  artifactKey: Guid(7b38af9bded78ed468433df43fcdfef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (12).png using Guid(7b38af9bded78ed468433df43fcdfef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c754fdbc05c9328ec2ebf39c63a36a45') in 0.013739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (46).png
+  artifactKey: Guid(0ec12bf9a9bd64e4cb91105708d0051e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (46).png using Guid(0ec12bf9a9bd64e4cb91105708d0051e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d45989259c512959f048a0cccc0e3da') in 0.012776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (34).png
+  artifactKey: Guid(ef430bf35d2fa2f4f985d09a30324ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (34).png using Guid(ef430bf35d2fa2f4f985d09a30324ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09d8d89679f8363acba41f359de788f') in 0.011664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (28).png
+  artifactKey: Guid(e6424e45e05b11f4ebee33bdb212c704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (28).png using Guid(e6424e45e05b11f4ebee33bdb212c704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23bebd0226770f3cfa417aae03bd2c73') in 0.012891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (135).png
+  artifactKey: Guid(5ba14566af7416240afb7958502e50c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (135).png using Guid(5ba14566af7416240afb7958502e50c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b04a8bb0cc19afc2a823c35e1be7c72') in 0.012784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.096121 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (166).png
+  artifactKey: Guid(ab092a5ef6476224ab3220760458b7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (166).png using Guid(ab092a5ef6476224ab3220760458b7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b72bfabe7fe87059dceee77b9855b91') in 0.013148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (169).png
+  artifactKey: Guid(98ccf3b3ac046fd439465f0170f17569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (169).png using Guid(98ccf3b3ac046fd439465f0170f17569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750e397b9da294a393a017fb1b2c2090') in 0.013789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (170).png
+  artifactKey: Guid(e9e77234a1a9315488eb893ca0578257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (170).png using Guid(e9e77234a1a9315488eb893ca0578257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06b15024106a1bce3c2d532b66db918') in 0.012981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (174).png
+  artifactKey: Guid(ab14efad0969c064fa4ef623704c2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (174).png using Guid(ab14efad0969c064fa4ef623704c2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2729ccdabf1378e32c4ce8accc9e9551') in 0.016296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/512/retrogard 512x512 (2).png
+  artifactKey: Guid(bcf5874144a53fa4c9b97f47f7f2d82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/512/retrogard 512x512 (2).png using Guid(bcf5874144a53fa4c9b97f47f7f2d82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b35776862fdd6e80f353f67766db75') in 0.014451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.086012 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/512/retrogard 512x512 (4).png
+  artifactKey: Guid(fdfe4970f1c088d4ca1daf4d0f2a455d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/512/retrogard 512x512 (4).png using Guid(fdfe4970f1c088d4ca1daf4d0f2a455d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a21d6b262979e7387cf2d01e691a4c') in 0.019959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/512/retrogard 512x512 (8).png
+  artifactKey: Guid(fd982d157d74b3f4ba062dd42b7523d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/512/retrogard 512x512 (8).png using Guid(fd982d157d74b3f4ba062dd42b7523d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ab7c9153db055078680d486feee015') in 0.017043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/512/retrogard 512x512 (10).png
+  artifactKey: Guid(79533f67bcda32a4a9abd5b615639c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/512/retrogard 512x512 (10).png using Guid(79533f67bcda32a4a9abd5b615639c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c71ca97dc8329e2e039d8445ce295f') in 0.012594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/512/retrogard 512x512 (13).png
+  artifactKey: Guid(b417aafbd004ffd479aca14ea430c69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/512/retrogard 512x512 (13).png using Guid(b417aafbd004ffd479aca14ea430c69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675a31903f10c7483244ed6c6c7b78ab') in 0.012675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/512/retrogard 512x512 (19).png
+  artifactKey: Guid(55ffb4dd869a18947bc075dea85455a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/512/retrogard 512x512 (19).png using Guid(55ffb4dd869a18947bc075dea85455a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a94a5ee8008c68b653d2d97276c718') in 0.013099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/512/retrogard 512x512 (16).png
+  artifactKey: Guid(bc395f32a5b5bb54eac829d37b0320e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/512/retrogard 512x512 (16).png using Guid(bc395f32a5b5bb54eac829d37b0320e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9919089a23aae064519c3719d27777ba') in 0.011978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/512/retrogard 512x512 (24).png
+  artifactKey: Guid(4c91d45532fce484cb8262b0ba2c50b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/512/retrogard 512x512 (24).png using Guid(4c91d45532fce484cb8262b0ba2c50b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d88d596a5de43619260d901a8887f3') in 0.013111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/512/retrogard 512x512 (23).png
+  artifactKey: Guid(7a43e8b2dfa9db14eb629533d21787f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/512/retrogard 512x512 (23).png using Guid(7a43e8b2dfa9db14eb629533d21787f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d8b5ccdd309e31e13afeaba4a5871b') in 0.011714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.988948 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (54).png
+  artifactKey: Guid(a326e1094a2f29e4f91aafa07a38b635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (54).png using Guid(a326e1094a2f29e4f91aafa07a38b635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72707c137763cb11a7cbd9f120b9d6f') in 0.012882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (57).png
+  artifactKey: Guid(19d50eb145d63114f852b51626fb7ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (57).png using Guid(19d50eb145d63114f852b51626fb7ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d0f0592004c422a12f66ac1c6e9cfc') in 0.016328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.478944 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (13).png
+  artifactKey: Guid(46d3366824fd5754483f38323dc59b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (13).png using Guid(46d3366824fd5754483f38323dc59b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7435f0801a1866388577b2fa9421ab68') in 0.017335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (17).png
+  artifactKey: Guid(014861632c2f32a40a7fd98eabc66940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (17).png using Guid(014861632c2f32a40a7fd98eabc66940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab02210e457f91a30341fd2bacee81d') in 0.014763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (19).png
+  artifactKey: Guid(ffbebba2c78c1544b9ef3cfec2044b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (19).png using Guid(ffbebba2c78c1544b9ef3cfec2044b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8dcb5cb8b790aa5b9bd1581979fee6') in 0.018080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.089506 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (5).png
+  artifactKey: Guid(526ccfb0cd25d1d40bf2667eabf5f0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (5).png using Guid(526ccfb0cd25d1d40bf2667eabf5f0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97881f26ac5413efc4854a13970911c9') in 0.013302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (167).png
+  artifactKey: Guid(32fe29cdeef07e94a90cfdcd68d4e1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (167).png using Guid(32fe29cdeef07e94a90cfdcd68d4e1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab34252db92bd75302555e9de1fb19d1') in 0.016756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (2).png
+  artifactKey: Guid(5bc1fd374141ce24ca77c921c708f9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (2).png using Guid(5bc1fd374141ce24ca77c921c708f9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f97d02ced91ed05f99e7f5be5a231e0') in 0.013951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (10).png
+  artifactKey: Guid(25d68b426b17d704599f9a3d759cea92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (10).png using Guid(25d68b426b17d704599f9a3d759cea92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455d545b16da046d5b59df86cb961300') in 0.018120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (11).png
+  artifactKey: Guid(362062091e3ba8849be8f0f0b783bc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/256/retrogard 256x256 (11).png using Guid(362062091e3ba8849be8f0f0b783bc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01aa8ebc10224ec039a91476d5c86f4a') in 0.016733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (169).png
+  artifactKey: Guid(a08769eacaaa64146845d06546afc8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (169).png using Guid(a08769eacaaa64146845d06546afc8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a982691f2268fa865d9742fea681d2') in 0.012326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (175).png
+  artifactKey: Guid(94052895d268c50409ac6544b01ed1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (175).png using Guid(94052895d268c50409ac6544b01ed1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249e24313ccfa396e893b131aa4f5779') in 0.017439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (170).png
+  artifactKey: Guid(ef35f2423259f43489e29098662e7195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (170).png using Guid(ef35f2423259f43489e29098662e7195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43111be0ee435081adbfebd9adbd059') in 0.015367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.174985 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (127).png
+  artifactKey: Guid(cf72d560e088d33428e17d7df5cb0f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (127).png using Guid(cf72d560e088d33428e17d7df5cb0f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e975589da02291621b1ee48c005350b6') in 0.017144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (114).png
+  artifactKey: Guid(8d829aec26d285d469bf4772bcd2c051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (114).png using Guid(8d829aec26d285d469bf4772bcd2c051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3d078810aeba9d246d3143e1d52aa3') in 0.018569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (110).png
+  artifactKey: Guid(340e58c7e2f881e45800eabfb0fc574f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (110).png using Guid(340e58c7e2f881e45800eabfb0fc574f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2daa8e2964cb63407018be021fe307e5') in 0.014117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (133).png
+  artifactKey: Guid(8436f4428c7e1ee4c9c0f47ea92569db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (133).png using Guid(8436f4428c7e1ee4c9c0f47ea92569db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0761b99086d952c0a7ab313d7df7cc') in 0.012627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (125).png
+  artifactKey: Guid(5ed9d6d53a4874f4abd34017be06a111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (125).png using Guid(5ed9d6d53a4874f4abd34017be06a111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9203a64f1fde1271b8f801d11b4cb6c4') in 0.012768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (121).png
+  artifactKey: Guid(02753170691533a4a9a5a85b3f4e34a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (121).png using Guid(02753170691533a4a9a5a85b3f4e34a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170e07b29b22c9e3163e6010cc5e3164') in 0.017208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (117).png
+  artifactKey: Guid(155ae50b9fbe043428651669c91f8199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (117).png using Guid(155ae50b9fbe043428651669c91f8199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbcd9c3e595ca596aaf44bbee58de8d8') in 0.020255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (120).png
+  artifactKey: Guid(edd693139e238644cbc8b7b56701cfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (120).png using Guid(edd693139e238644cbc8b7b56701cfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f570ff1714ad3b1f86ee8c3835527d') in 0.021464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (105).png
+  artifactKey: Guid(25dd98debfabea94a8a8ba3db7c06fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (105).png using Guid(25dd98debfabea94a8a8ba3db7c06fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d5b817db2dd334ae9d2095d220a1e8') in 0.026623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (96).png
+  artifactKey: Guid(1becf23ed200436468ce38c1d48e832d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (96).png using Guid(1becf23ed200436468ce38c1d48e832d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0b74848b0607ee37b61379dcb1e596') in 0.022340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (101).png
+  artifactKey: Guid(2e29874fe14efdb4681fbf7c164732c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (101).png using Guid(2e29874fe14efdb4681fbf7c164732c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3906e7559f3b81300096acb73d03931') in 0.018494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (97).png
+  artifactKey: Guid(9fbe44e76a938194c88fa437c2413989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (97).png using Guid(9fbe44e76a938194c88fa437c2413989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a943c1ccabb2f6c3ea5f7de6da2efe') in 0.015760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (106).png
+  artifactKey: Guid(845f3dfa95de94a438e8338352e28dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (106).png using Guid(845f3dfa95de94a438e8338352e28dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daeb980726d23c2b5a89ba9bb734763b') in 0.013780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (90).png
+  artifactKey: Guid(d6543b431cf3f084d9a7216ea25560a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (90).png using Guid(d6543b431cf3f084d9a7216ea25560a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94e7e3d2e688735a00d972f7702f250') in 0.015698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (98).png
+  artifactKey: Guid(fb4e2a934a3b544478a842a3d3f181a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (98).png using Guid(fb4e2a934a3b544478a842a3d3f181a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086f4a058c0524a63986f53cde4951e3') in 0.018217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (99).png
+  artifactKey: Guid(41375c016d9881c458cb5ab56d5ef43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/128/retrogard 128x128 (99).png using Guid(41375c016d9881c458cb5ab56d5ef43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b755aa4f3b8ff45fedb96da0e4d4c169') in 0.019897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.731655 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (177).png
+  artifactKey: Guid(682ebde67dcdda34eb3d43474c98ebc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (177).png using Guid(682ebde67dcdda34eb3d43474c98ebc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b8b9099e01237b28ed1130e9c999fb') in 0.015396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (170).png
+  artifactKey: Guid(61de5942dcda4f14099b29a87052ef8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (170).png using Guid(61de5942dcda4f14099b29a87052ef8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362a91d25a70dde14a000b5b63dcac17') in 0.020456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (172).png
+  artifactKey: Guid(9f15b753bc39f1343a014bee9ed6ac93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (172).png using Guid(9f15b753bc39f1343a014bee9ed6ac93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524e3f0480576f09c63634e3a1176b72') in 0.018278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (171).png
+  artifactKey: Guid(d2298e62bcd9acf428b33bf2d7a20dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (171).png using Guid(d2298e62bcd9acf428b33bf2d7a20dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26d37d1591464f23424dfaf6912c447') in 0.015765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (173).png
+  artifactKey: Guid(fb0cfa2486c3a3a4b9eb20a894117b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (173).png using Guid(fb0cfa2486c3a3a4b9eb20a894117b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ec96cf67157fa665d968891decb015') in 0.012368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.568952 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (129).png
+  artifactKey: Guid(4fc00bb69fe672149a36b353fbcb180c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (129).png using Guid(4fc00bb69fe672149a36b353fbcb180c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d40b599c709c7aef7900dce824e059a') in 0.028730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (123).png
+  artifactKey: Guid(165742391c8fe4346b2184d035234cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (123).png using Guid(165742391c8fe4346b2184d035234cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874b21f2da749dcdabe318757a22a855') in 0.019976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (121).png
+  artifactKey: Guid(266bf12b00ffeae4dbe85302a6e5dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (121).png using Guid(266bf12b00ffeae4dbe85302a6e5dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21964612e619122bafac27a4cb9a06ec') in 0.020419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (122).png
+  artifactKey: Guid(fc5f67578fd158e4a959b65f44376dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (122).png using Guid(fc5f67578fd158e4a959b65f44376dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae2984425271ec4df644663a872cb4c') in 0.014409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (135).png
+  artifactKey: Guid(2befaae9d5c0d4847b5b23b99cc2f28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (135).png using Guid(2befaae9d5c0d4847b5b23b99cc2f28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c911389946ee19da7705c7fa817052ce') in 0.013496 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

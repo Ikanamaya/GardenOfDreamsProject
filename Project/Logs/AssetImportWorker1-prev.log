@@ -1,0 +1,371 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ru' Physical Memory: 16328 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/D_Documents/Unity project/GardenOfDreamsProject
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+61401
+Successfully changed project path to: D:/D_Documents/Unity project/GardenOfDreamsProject
+D:/D_Documents/Unity project/GardenOfDreamsProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9752] Host "[IP] 192.168.8.29 [Port] 0 [Flags] 2 [Guid] 2115792496 [EditorId] 2115792496 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U2U5QRI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9752] Host "[IP] 192.168.8.29 [Port] 0 [Flags] 2 [Guid] 2115792496 [EditorId] 2115792496 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U2U5QRI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 79.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/D_Documents/Unity project/GardenOfDreamsProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   32.0.15.7652
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006427 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 79.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.536 seconds
+Domain Reload Profiling:
+	ReloadAssembly (537ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (372ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (86ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (98ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002946 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\D_Documents\Unity project\GardenOfDreamsProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\D_Documents\Unity project\GardenOfDreamsProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.830 seconds
+Domain Reload Profiling:
+	ReloadAssembly (831ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (630ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (219ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (278ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (57.4 KB). Loaded Objects now: 3543.
+Memory consumption went from 126.8 MB to 126.7 MB.
+Total: 3.656900 ms (FindLiveObjects: 0.422000 ms CreateObjectMapping: 0.101000 ms MarkObjects: 3.014800 ms  DeleteObjects: 0.118100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 169486.267016 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Mjolnir/NewLayer.terrainlayer
+  artifactKey: Guid(f1072ab46c389ac4ca40a1d7857fbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Mjolnir/NewLayer.terrainlayer using Guid(f1072ab46c389ac4ca40a1d7857fbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff520d461b643f9e469bf4b684a6a14') in 0.090824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.962353 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Mjolnir/Textures/Road/DirtyGrassRoad/DrityGrassRoad_ao.png
+  artifactKey: Guid(609e6b33d43ce4a42b96ccb839a5ec12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Mjolnir/Textures/Road/DirtyGrassRoad/DrityGrassRoad_ao.png using Guid(609e6b33d43ce4a42b96ccb839a5ec12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179abd7642b5e4cb56d95a7c1991ab3a') in 0.042308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.464547 seconds.
+  path: Assets/Village/Props/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Textures/Photoshop. Red Flag, Model A.psd
+  artifactKey: Guid(65aedf915acf34dd8bc04474acb108c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village/Props/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Textures/Photoshop. Red Flag, Model A.psd using Guid(65aedf915acf34dd8bc04474acb108c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5520d6575401111cce137108b35fde66') in 0.065522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Village/Props/GardenTools/Shovel/ShovelNM.png
+  artifactKey: Guid(4dbeebc9f55da314c8ea1a7a9a3ee7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village/Props/GardenTools/Shovel/ShovelNM.png using Guid(4dbeebc9f55da314c8ea1a7a9a3ee7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00fb537d29a308de26b7045f0a99c2e') in 0.027984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Village/Props/Game Assets/Aegis77/Wooden Planks/Textures/Planks_weathered 1.png
+  artifactKey: Guid(a2ddb52763fd49347a180cedcd2e87a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village/Props/Game Assets/Aegis77/Wooden Planks/Textures/Planks_weathered 1.png using Guid(a2ddb52763fd49347a180cedcd2e87a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6944aba43779cdffa2e70fdaab3a30') in 0.050591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Village/Props/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner A - Wood.png
+  artifactKey: Guid(4cbe204b587344ff585eec1e35f7518d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village/Props/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner A - Wood.png using Guid(4cbe204b587344ff585eec1e35f7518d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f776194792cd00653153723f44ebe23') in 0.015325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Village/Props/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner B.png
+  artifactKey: Guid(25cd0edab0b0e4240858f6fc55eefa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village/Props/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner B.png using Guid(25cd0edab0b0e4240858f6fc55eefa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e8facd6640b0061283a8e4dd04fdc6') in 0.018860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Village/Props/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner E - Wood.png
+  artifactKey: Guid(f057046920a1d477bbb80af52b9cff6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village/Props/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner E - Wood.png using Guid(f057046920a1d477bbb80af52b9cff6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff9d3e05f3f2651d6ae36a0d037dcec') in 0.014036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Village/Props/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner D - Wood.png
+  artifactKey: Guid(5b7b2219011794c91b3a2d67aec6a9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village/Props/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner D - Wood.png using Guid(5b7b2219011794c91b3a2d67aec6a9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c175db1c4a53df2980467f1cca856c41') in 0.013353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Village/Props/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Textures/Plants.png
+  artifactKey: Guid(642aace2bb9714199a263451196ecd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village/Props/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Textures/Plants.png using Guid(642aace2bb9714199a263451196ecd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d126df3e6d4af946d797708208553d5') in 0.015104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Village/Props/Game Assets/Aegis77/Wooden Planks/Textures/Planks_albedo_light.png
+  artifactKey: Guid(90837a0161dcd364883e3cd16c8a033d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village/Props/Game Assets/Aegis77/Wooden Planks/Textures/Planks_albedo_light.png using Guid(90837a0161dcd364883e3cd16c8a033d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9758e51913b4d8df207c579f8a03e0c8') in 0.012281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Village/Props/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner C - Wood.png
+  artifactKey: Guid(e38f0eeb7ce434efb92618f1890d711a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village/Props/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner C - Wood.png using Guid(e38f0eeb7ce434efb92618f1890d711a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4449bbd704a7889c9ffce4d9e44aeee8') in 0.020308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Village/Props/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Textures/Red Flag, Model B Square.png
+  artifactKey: Guid(d5e58395cb4a44c2cae03e722ce1edc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village/Props/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Textures/Red Flag, Model B Square.png using Guid(d5e58395cb4a44c2cae03e722ce1edc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c9ea5ac978cc8bc4c40ad05c992f67') in 0.018815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Village/Props/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Textures/Texture, Metal_Wall_Grid_Pillar_Base_Color.png
+  artifactKey: Guid(96126c3180d68433e88f6ab595219f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village/Props/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Textures/Texture, Metal_Wall_Grid_Pillar_Base_Color.png using Guid(96126c3180d68433e88f6ab595219f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6deda530f91bd31732abced55497e1b4') in 0.012925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Village/Buildings/fantasy village mobile pack/assets/textures/TexTerr2.png
+  artifactKey: Guid(20074b7f737028f40918e8dccddf5be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village/Buildings/fantasy village mobile pack/assets/textures/TexTerr2.png using Guid(20074b7f737028f40918e8dccddf5be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5524754710124ec513f86443b9d78877') in 0.094864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Village/Props/GardenTools/Shovel/Shovel.png
+  artifactKey: Guid(b81c636de052df7408f7fd4bd1c8b12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village/Props/GardenTools/Shovel/Shovel.png using Guid(b81c636de052df7408f7fd4bd1c8b12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a18eec153b76510efd30208948927c') in 0.018368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Village/Props/GardenTools/Shovel/ShovelLever.png
+  artifactKey: Guid(e31f16b76fd7ae04683af2eb6d35dabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village/Props/GardenTools/Shovel/ShovelLever.png using Guid(e31f16b76fd7ae04683af2eb6d35dabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b63007ec4014878e4eef35bb38d3bea') in 0.014375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Village/Props/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Textures/Red Flag, Model A.png
+  artifactKey: Guid(e30ea6173f15c4efdb5244d17abbcc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village/Props/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Textures/Red Flag, Model A.png using Guid(e30ea6173f15c4efdb5244d17abbcc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29eedde048ee2232ff1a20c3464ad497') in 0.014852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Village/Props/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Textures/Texture, Table_Wall_Base_Color.png
+  artifactKey: Guid(8b9abe6f3f62440989c45fc67e9c3971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village/Props/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Textures/Texture, Table_Wall_Base_Color.png using Guid(8b9abe6f3f62440989c45fc67e9c3971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40866997d7a79a810b30ff9ff573be80') in 0.015472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Village/Props/GardenTools/Shovel/ShovelMetalic.psd
+  artifactKey: Guid(7ecdcf5dc16e2a1498fe80af82d8de37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village/Props/GardenTools/Shovel/ShovelMetalic.psd using Guid(7ecdcf5dc16e2a1498fe80af82d8de37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d119eeb5fe9c5e9e0ea24cf91452f84') in 0.016556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 114.544414 seconds.
+  path: Assets/Village/Buildings/fantasy village mobile pack/assets/textures/NewLayer 1.terrainlayer
+  artifactKey: Guid(6be01fae2f7e3d545bbb910c0dd66fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village/Buildings/fantasy village mobile pack/assets/textures/NewLayer 1.terrainlayer using Guid(6be01fae2f7e3d545bbb910c0dd66fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fa76af8d0b6ed0bce1af62be4b8e91') in 0.058234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 492.146569 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Mjolnir/Textures/Grass/GreenField/GreenField_Base_Color_spring.png
+  artifactKey: Guid(a3226876cccd6d14ba1d40c60aeb6705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Mjolnir/Textures/Grass/GreenField/GreenField_Base_Color_spring.png using Guid(a3226876cccd6d14ba1d40c60aeb6705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc266d78f9263aaba8b1000cdf8a3f4') in 0.019485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.131843 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Mjolnir/Textures/Grass/GreenField/GreenField_normal.png
+  artifactKey: Guid(2cf256621c75f1b4284ab51cc9902f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Mjolnir/Textures/Grass/GreenField/GreenField_normal.png using Guid(2cf256621c75f1b4284ab51cc9902f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2dad2e5d3283cae07c461d2f501ac4') in 0.025707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.572005 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (2).png
+  artifactKey: Guid(4e07033ff95bcd54da426d5ebcf64962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (2).png using Guid(4e07033ff95bcd54da426d5ebcf64962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84390b74e01794b5951bed8e3e2df788') in 0.012471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (7).png
+  artifactKey: Guid(fde3447d12a772c4691c3679597c30a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (7).png using Guid(fde3447d12a772c4691c3679597c30a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f2934d6135876063e348c2a35090f6') in 0.011975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (3).png
+  artifactKey: Guid(19ace0cd71abcbe46afb49909c3e8d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (3).png using Guid(19ace0cd71abcbe46afb49909c3e8d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e7049d4fe3045a8ce3fdcecfd02499') in 0.010492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (6).png
+  artifactKey: Guid(4327d7b389bafb548b2d7835869929a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (6).png using Guid(4327d7b389bafb548b2d7835869929a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87246e65ccd7b17955bd8474e932cf7') in 0.010675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (16).png
+  artifactKey: Guid(da86dea225b3ebe4197492a2dd5be8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (16).png using Guid(da86dea225b3ebe4197492a2dd5be8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a566c5b395b297fc0f0e2241e8b7befb') in 0.012357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (8).png
+  artifactKey: Guid(ac9fcccfc7981bc4cbd4132839db8285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (8).png using Guid(ac9fcccfc7981bc4cbd4132839db8285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc375ab64e0af1713befd1f5b0118ad2') in 0.011969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (15).png
+  artifactKey: Guid(1dfaa76f56a6d444bb3bee5ef7e4a5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (15).png using Guid(1dfaa76f56a6d444bb3bee5ef7e4a5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6123241b084fdc89b57c80b2ac852fe3') in 0.011515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (12).png
+  artifactKey: Guid(8e1e5b2340eb18b4291f6cd4b05f4c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/LaFinca/Midgard Textures/Retrogard/64/retrogard 64x64 (12).png using Guid(8e1e5b2340eb18b4291f6cd4b05f4c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d027abac98b9879c43571fba41936ba') in 0.023369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.849353 seconds.
+  path: Assets/Terrain/NewLayer 2.terrainlayer
+  artifactKey: Guid(7ba6f1bdfa242f447a47d099a2eab9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/NewLayer 2.terrainlayer using Guid(7ba6f1bdfa242f447a47d099a2eab9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b94f0380c8f5c6825793cd83f3954bc') in 0.019715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Terrain/NewLayer.terrainlayer
+  artifactKey: Guid(f1072ab46c389ac4ca40a1d7857fbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/NewLayer.terrainlayer using Guid(f1072ab46c389ac4ca40a1d7857fbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3364ee8f1703a60d75fe009f048912b6') in 0.032039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.403914 seconds.
+  path: Assets/Terrain/NewLayer 2.terrainlayer
+  artifactKey: Guid(7ba6f1bdfa242f447a47d099a2eab9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/NewLayer 2.terrainlayer using Guid(7ba6f1bdfa242f447a47d099a2eab9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a9beca51d236f989dc9be322313bba') in 0.028722 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
